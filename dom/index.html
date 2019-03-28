@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p> Ola testando </p> 
+        
+    <h1 id="t1"> Testando denovo </h1>
+    <h1> Testando denovo 2 </h1>
+
+    <p class="text"> Testando mais uma vez </p>
+
+    <input type="text" name="email">
+
+    <script>
+        //eventos de captura
+        
+        function test1(){
+            const p =  document.getElementsByTagName('p')
+            // console.log(p[0].textContent)
+            // console.log(p[0].baseURI)
+        }
+
+        function test2(){
+            // const p = document.getElementsByTagName('h1')
+            const p = document.getElementById('t1')
+            console.log(p.textContent)
+        }
+
+        function test3(){
+            const p = document.getElementsByClassName('text')
+            console.log(p[0].textContent)
+        }
+
+        function test4(){
+            const email = document.getElementsByName('email')
+            console.log(email[0].nodeName)
+        }
+
+
+
+
+        // test1()
+        // test2()
+        // test3()
+        test4()
+
+    </script>
+</body>
+</html>
