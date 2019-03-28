@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sayHello() {
+            console.log('teste')
+        }
+        sayHello()
+
+
+        function square(num){
+            finish = num * num
+            return finish
+        }
+
+        teste = square(2)
+        console.log(teste)
+
+
+        function fat(num){
+
+            if(num == 1){
+                return 1
+            } else {
+                return num * fat(num - 1)
+            }
+        }
+
+        var resultado = fat(5)
+        console.log(resultado)
+
+        //funcao assincrona
+
+
+
+
+    </script>
+</body>
+</html>
